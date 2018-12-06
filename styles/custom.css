@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Niconne');
+
 /***** BASE CSS *****/
 .big-link { text-align: left; color: #000; font-family: Verdana, Geneva, sans-serif; font-size:12px; font-weight: normal; }
 
@@ -185,13 +187,13 @@ img {max-width:100%;height:auto;width:auto;-moz-box-sizing:border-box;-webkit-bo
 }
 
 .box{
-	text-align: center;
-	margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .box i{
-	font-size: 50px;
-	color: #E05F03;
+  font-size: 50px;
+  color: #E05F03;
 }
 
 img.pull-left { margin-right:15px !important; margin-top:7px !important;}
@@ -313,17 +315,17 @@ h1 {font-weight: normal; font-style: normal; letter-spacing: 0px; line-height: 6
 
 
 #divFooter{
-	border-bottom-left-radius: 0px;
-	border-bottom-right-radius: 0px;
-	background-color: rgb(122, 12, 12);
-	color: rgb(211, 211, 211);
-	font-family: Actor, sans-serif;
-	text-transform: none;
-	font-size: 12px;
-	letter-spacing: 0px;
-	line-height: 22px;
-	background-image: url(tactile_noise.png);
-	background-repeat: repeat repeat;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: rgb(122, 12, 12);
+  color: rgb(211, 211, 211);
+  font-family: Actor, sans-serif;
+  text-transform: none;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  background-image: url(tactile_noise.png);
+  background-repeat: repeat repeat;
 }
 
 .divPanel {padding: 40px;;;;}
@@ -506,7 +508,7 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'So
     .dropdown-menu, .sub-menu {border-radius:5px !important;}
 
     .navbar .ddmenu {margin-top: 0px;margin-bottom: 0px;}
-	
+  
 .gillsanslight {
   font-family: "Gill Sans Light";
   font-style: normal;
@@ -528,5 +530,37 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'So
 }
 
 
+ .logo{
+   margin-bottom:10px;
+ }
+  .logo > div{
+    display: table;
+    width:100%;
+    vertical-align: bottom;
+    table-layout: fixed;;
+  }
+  .logo > div > a, 
+  .logo > div >div{
+    display:table-cell;
+    width:60%;
+    vertical-align: bottom;
+  }
+  .logo > div >div{
+      width:40%;
+      padding-left:20px;
+  }
+  .managed-by{
+    display:block;
+    font-family: 'Niconne', cursive;
+    font-style:italic;
+    color:#333;
+    font-size: 160%;
+    text-align:left;
+  }
 
 
+
+
+.managed-by{
+  max-width:100%;
+}
