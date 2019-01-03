@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Marck+Script');
 
 
+
 /***** BASE CSS *****/
 .big-link { text-align: left; color: #000; font-family: Verdana, Geneva, sans-serif; font-size:12px; font-weight: normal; }
 
@@ -256,7 +257,7 @@ body {background: #fff; }
 
 .camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span {}
 
-.camera_wrap {display: block; margin-bottom: 15px; height: 391px; border: 0px solid ; margin-left: 0px; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; margin-top: 59px; }
+.camera_wrap {display: block; margin-bottom: 15px; height: 391px; border: 0px solid ; margin-left: 0px; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; margin-top: 0; }
 
 .cap1 > div {opacity: 0.85;filter:alpha(opacity=85);background-color:rgb(213, 106, 64);}
 
